@@ -170,7 +170,7 @@ export class VoxelEngine {
               const instanceId = intersection[0].instanceId;
               if (instanceId !== undefined) {
                   const voxel = this.voxels[instanceId];
-                  if (voxel.groupId && voxel.groupId !== 'animated_fire') {
+                  if (voxel.groupId) {
                       this.onObjectClick(voxel.groupId);
                   }
               }

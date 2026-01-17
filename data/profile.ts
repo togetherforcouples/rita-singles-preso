@@ -75,10 +75,10 @@ export const PROFILE_DATA: Record<string, ProfileSection> = {
   },
   'animated_fire': {
     id: 'animated_fire',
-    title: 'The Adventurer',
+    title: 'Adventurer Hobbies',
     slides: [
       {
-        title: "The Adventurer",
+        title: "Adventurer Hobbies",
         text: [
           "🏂 Snowboarding (Her new obsession!)",
           "🧗‍♀️ Bouldering",

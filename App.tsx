@@ -8,6 +8,7 @@ import { VoxelEngine } from './services/VoxelEngine';
 import { UIOverlay } from './components/UIOverlay';
 import { GameDialog } from './components/GameDialog';
 import { generateRoom } from './utils/voxelGenerators';
+import { MusicPlayer } from './components/MusicPlayer';
 import { PROFILE_DATA } from './data/profile';
 import { ProfileSection } from './types';
 
@@ -77,6 +78,7 @@ const App: React.FC = () => {
       <UIOverlay 
         onOpenHelp={() => {}}
       />
+      <MusicPlayer />
 
       {/* Content Dialog */}
       <GameDialog 
